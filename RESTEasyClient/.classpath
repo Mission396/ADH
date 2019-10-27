@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-api-2.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/jaxrs-api-2.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.8.2.jar"/>
+	<classpathentry kind="lib" path="lib/resteasy-jackson-provider-2.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="lib/resteasy-jaxrs-2.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="lib/scannotation-1.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="lib/resteasy-jaxb-provider-2.3.2.Final.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
