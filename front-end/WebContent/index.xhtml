@@ -16,15 +16,15 @@
 	<form>
 		<h:panelGrid columns="2" cellpadding="5">
 			<p:outputLabel value="TweetBody" />
-			<p:inputText value="#{employeeController.employee.firstName}"></p:inputText>
-			<p:outputLabel value="TweetId" />
-			<p:inputText value="#{employeeController.employee.lastName}"></p:inputText>
+			<p:inputText value="#{TweetController.tweet.tweetbody}"></p:inputText>
+			<p:outputLabel value="tweetId" />
+			<p:inputText value="#{TweetController.tweet.tweetId}"></p:inputText>
 			
 			<p:outputLabel></p:outputLabel>
 			<p:commandButton value="Send"
-				action="#{employeeController.saveEmployee(employeeController.employee)}"></p:commandButton>
+				action="#{TweetController.saveTweet(TweetController.tweet)}"></p:commandButton>
 			<p:commandButton value="Get"
-				action="#{tweetered.twitter}"></p:commandButton>
+				action="#{tweeted.tweetered}"></p:commandButton>
 		</h:panelGrid>
 	</form>
 </body>

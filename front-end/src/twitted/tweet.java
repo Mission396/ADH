@@ -17,9 +17,8 @@ public class tweet {
 			  .setOAuthAccessTokenSecret("RHrUvc3n0FAMm2cTfDDv7IHbqHLsWKwncwMDEUNg2s97D");
 			TwitterFactory tf = new TwitterFactory(cb.build());
 			Twitter twitter = tf.getInstance();
-			//twitter.updateStatus("ADH401T Pls help 11");
 			//@AdhLecturer
-			twitter.updateStatus("creating baeldung API a");
+			twitter.updateStatus("@AdhLecturer 203221959 ADH Project");
 		   // return status.getText();
 		}
 	}
